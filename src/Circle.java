@@ -3,6 +3,20 @@ public class Circle {
     public double circumference; //Длина окружности, измеряем в метрах
     public double circle_radius; //Радиус окружности, измеряем в метрах
     public double area; //Площадь окружности, измеряем в квадратных метрах
+    public int diameter;
+
+
+    public Circle(int diameter) {
+        this.diameter = diameter;
+    }
+
+    public int getDiameter() {
+        return diameter;
+    }
+
+    public void setDiameter(int diameter) {
+        this.diameter = diameter;
+    }
 
     public Circle(double circle_radius) {
         this.circle_radius = circle_radius;
