@@ -8,6 +8,7 @@ public class Circle {
 
     public Circle(int diameter) {
         this.diameter = diameter;
+        System.out.println("Диаметр пицы " + diameter);
     }
 
     public int getDiameter() {

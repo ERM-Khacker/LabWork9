@@ -10,7 +10,8 @@ public class Pizza {
         this.cost = cost;
         this.composition = composition;
         this.name = name;
-        System.out.println("Название пицы " + name + ", состав: " + composition + ", окружность или величина в сантиметрах: "+ diameter
+        //Circle circle = new Circle(2);
+        System.out.println("Название пицы: " + name + ", состав: " + composition + ", окружность или величина в сантиметрах: "
                 + ", цена $: " + cost);
 
     }
